@@ -5,7 +5,7 @@ audiogo = new Audio('gameover.wav');
 setTimeout(() => {
     audio.play();
     
-},1000);
+},3000);
 document.onkeydown = function(e){
     console.log("key code is : ",e.keyCode);
     if(e.keyCode==38){
